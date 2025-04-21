@@ -17,7 +17,7 @@ public class City {
     @Id
     private Integer id;
 
-    @Column(name = "name")
+    @Column(insertable = false, updatable = false)
     private String name;
 
     @ManyToOne

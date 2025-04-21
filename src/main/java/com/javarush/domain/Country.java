@@ -7,6 +7,7 @@ import jakarta.persistence.Enumerated;
 import jakarta.persistence.FetchType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
 import lombok.Getter;
@@ -38,7 +39,7 @@ public class Country {
     private Continent continent;
 
     @Column(name = "region")
-    private Integer region;
+    private String region;
 
     @Column(name = "surface_area")
     private BigDecimal surfaceArea;
@@ -68,10 +69,10 @@ public class Country {
     private String headOfState;
 
     @OneToOne
-    @Column(name = "capital")
+    @JoinColumn(name = "capital")
     private City capital;
 
-    @OneToOne(fetch = FetchType.EAGER)
+    @OneToMany(fetch = FetchType.EAGER)
     @JoinColumn(name = "country_id")
     private Set<CountryLanguage> languages;
 }
