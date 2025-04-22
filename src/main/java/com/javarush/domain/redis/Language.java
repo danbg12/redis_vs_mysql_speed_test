@@ -1,4 +1,4 @@
-package com.javarush.redis;
+package com.javarush.domain.redis;
 
 import lombok.Getter;
 import lombok.Setter;

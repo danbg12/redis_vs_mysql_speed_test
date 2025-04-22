@@ -6,7 +6,9 @@ import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.hibernate.annotations.Type;
 
@@ -14,6 +16,9 @@ import java.math.BigDecimal;
 
 @Setter
 @Getter
+@NoArgsConstructor
+@AllArgsConstructor
+
 @Entity
 @Table(name = "country_language", schema = "world")
 public class CountryLanguage {

@@ -1,4 +1,4 @@
-package com.javarush.redis;
+package com.javarush.domain.redis;
 
 import com.javarush.domain.Continent;
 import lombok.Getter;
@@ -11,26 +11,15 @@ import java.util.Set;
 @Getter
 public class CityCountry {
     private Integer id;
-
-    private String name;
-
-    private String district;
-
+    private String cityName;
+    private String cityDistrict;
     private Integer population;
-
     private String countryCode;
-
     private String alternativeCountryCode;
-
     private String countryName;
-
     private Continent continent;
-
     private String countryRegion;
-
     private BigDecimal countrySurfaceArea;
-
     private Integer countryPopulation;
-
     private Set<Language> languages;
 }
