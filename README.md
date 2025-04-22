@@ -22,7 +22,9 @@ This Java mini-project provides access to geographical and demographic data from
 
 - JDK 17+
 - Maven 3.6+
-- A compatible database (MySQL / PostgreSQL, etc.)
+- A compatible database (MySQL8 / PostgreSQL, etc.)
+- Redis
+- Lettuce
 - Hibernate Core
 - (Optional) P6Spy for query logging
 
