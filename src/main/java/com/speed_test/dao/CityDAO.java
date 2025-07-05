@@ -1,6 +1,6 @@
-package com.javarush.dao;
+package com.speed_test.dao;
 
-import com.javarush.domain.City;
+import com.speed_test.domain.City;
 import org.hibernate.SessionFactory;
 import org.hibernate.query.Query;
 

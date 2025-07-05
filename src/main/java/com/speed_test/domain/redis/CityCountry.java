@@ -1,6 +1,6 @@
-package com.javarush.domain.redis;
+package com.speed_test.domain.redis;
 
-import com.javarush.domain.Continent;
+import com.speed_test.domain.Continent;
 import lombok.Getter;
 import lombok.Setter;
 

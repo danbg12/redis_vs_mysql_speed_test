@@ -4,10 +4,10 @@ This Java mini-project provides access to geographical and demographic data from
 
 ## Project Structure
 
-- **com.javarush.dao**
+- **com.speed_test.dao**
     - `CityDAO`, `CountryDAO` – Data Access Object (DAO) classes for managing access to city and country data.
 
-- **com.javarush.domain**
+- **com.speed_test.domain**
     - JPA entities representing database tables: `City`, `Country`, `CountryLanguage`, `Continent`.
     - The `redis` subpackage is reserved for potential Redis integration (currently may be empty or under development).
 

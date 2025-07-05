@@ -1,4 +1,4 @@
-package com.javarush.domain;
+package com.speed_test.domain;
 
 public enum Continent {
     ASIA,

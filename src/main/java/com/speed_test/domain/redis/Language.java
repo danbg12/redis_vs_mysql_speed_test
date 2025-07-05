@@ -1,4 +1,4 @@
-package com.javarush.domain.redis;
+package com.speed_test.domain.redis;
 
 import lombok.Getter;
 import lombok.Setter;

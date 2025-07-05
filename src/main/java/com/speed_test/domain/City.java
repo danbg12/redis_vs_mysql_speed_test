@@ -1,4 +1,4 @@
-package com.javarush.domain;
+package com.speed_test.domain;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

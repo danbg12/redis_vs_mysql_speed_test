@@ -1,14 +1,14 @@
-package com.javarush;
+package com.speed_test;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.javarush.dao.CityDAO;
-import com.javarush.dao.CountryDAO;
-import com.javarush.domain.City;
-import com.javarush.domain.Country;
-import com.javarush.domain.CountryLanguage;
-import com.javarush.domain.redis.CityCountry;
-import com.javarush.domain.redis.Language;
+import com.speed_test.dao.CityDAO;
+import com.speed_test.dao.CountryDAO;
+import com.speed_test.domain.City;
+import com.speed_test.domain.Country;
+import com.speed_test.domain.CountryLanguage;
+import com.speed_test.domain.redis.CityCountry;
+import com.speed_test.domain.redis.Language;
 import io.lettuce.core.RedisClient;
 import io.lettuce.core.RedisURI;
 import io.lettuce.core.api.StatefulRedisConnection;
